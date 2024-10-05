@@ -1,0 +1,51 @@
+.legend{
+    margin: 150px;
+    padding: 0;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 600px;
+}
+
+.items {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+.items button{
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background: #df9924;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button span{
+    float: right;
+    left: 0px;
+    position: absolute;
+    right: 70px;
+}
+
+.ulData{
+    width: 50%;
+    height: 100px;
+    box-shadow: 0 0 10px #ccc;
+    background: white;
+    list-style: none;
+    padding: 20px;
+    margin: 2px;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+
+.ulData li {
+    margin-bottom: 5px;
+}
