@@ -28,10 +28,10 @@ export default function Index() {
   
 
         <div className="col">
-            <a href="#" className="fb btnCls">
+            <a href="https://www.instagram.com/king.energydrink_morena/profilecard/?igsh=Y3Jvb2Q0OXJ0ZDJn" target='_blank' className="fb btnCls">
             <FontAwesomeIcon icon={faInstagram} />  Instagram
             </a>
-            <a href="#" className="fb btnCls">
+            <a href="https://www.facebook.com/shubham.gour.986?mibextid=ZbWKwL" target='_blank' className="fb btnCls">
             <FontAwesomeIcon icon={faFacebook} />  Facebook
             </a>
             <a href="#" className="google btnCls" onClick={HandleClickDistribute}>Distributer</a>
@@ -39,14 +39,14 @@ export default function Index() {
                 isDistShow ?
                 <div className="content">
                     <ul className='ulData'>
-                        <li>Work: 8340840334</li>
-                        <li>Phone: 083409384</li>
+                        <li>Phone: +91-9111111519</li>
+                        <li>Phone 2: +91-9302180687</li>
 
                     </ul>
                 </div>
                 : null
             }
-            <a href="#" className="twitter btnCls">
+            <a href="https://wa.me/9111111519" className="twitter btnCls">
             <FontAwesomeIcon icon={faWhatsapp} />   Whatsapp
             </a>
             <a href="#" className="google btnCls" onClick={HandleClickContact}>Contact</a>
@@ -54,15 +54,15 @@ export default function Index() {
                 isContactShow ?
                 <div className="content">
                     <ul className='ulData'>
-                        <li>Work: 8340840334</li>
-                        <li>Phone: 083409384</li>
+                        <li>Phone: +91-9111111519</li>
+                        <li>Phone 2: +91-9302180687</li>
                         <a><li>https://vaishnavi.trading.vercel.com</li></a>
 
                     </ul>
                 </div>
                 : null
             }
-            
+            #
         </div>
 
      
