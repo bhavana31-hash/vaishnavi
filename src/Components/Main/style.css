@@ -18,12 +18,12 @@ body {
     width: 100%;
     padding: 12px;
     border: none;
-    color: white;
+    color: #000000;
     font-weight: bold;
-    background: #df9924;
+    background: #d9970b;
     border-radius: 30px;
     margin: 5px 0;
-    opacity: 0.85;
+    opacity: 0.95;
     display: inline-block;
     font-size: 17px;
     line-height: 20px;
@@ -123,4 +123,6 @@ body {
 
   .content ul{
     list-style: none;
+    padding-left: 1rem !important;
+    padding-top: 1rem;
   }

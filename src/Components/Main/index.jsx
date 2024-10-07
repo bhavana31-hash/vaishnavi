@@ -20,8 +20,7 @@ export default function Index() {
         
         setIsContactShow(!isContactShow)
     }
-    console.log(isContactShow);
-    
+    // console.log(isContactShow)    
 
   return (
     <div className="container">
@@ -39,14 +38,14 @@ export default function Index() {
                 isDistShow ?
                 <div className="content">
                     <ul className='ulData'>
-                        <li>Phone: +91-9111111519</li>
-                        <li>Phone 2: +91-9302180687</li>
+                        <li>Work: 8340840334</li>
+                        <li>Phone: 083409384</li>
 
                     </ul>
                 </div>
                 : null
             }
-            <a href="https://wa.me/9111111519" className="twitter btnCls">
+            <a href="https://wa.me/9111111519" target='_blank'  className="twitter btnCls">
             <FontAwesomeIcon icon={faWhatsapp} />   Whatsapp
             </a>
             <a href="#" className="google btnCls" onClick={HandleClickContact}>Contact</a>
@@ -54,15 +53,15 @@ export default function Index() {
                 isContactShow ?
                 <div className="content">
                     <ul className='ulData'>
-                        <li>Phone: +91-9111111519</li>
-                        <li>Phone 2: +91-9302180687</li>
-                        <a><li>https://vaishnavi.trading.vercel.com</li></a>
+                        <li>Work: 8340840334</li>
+                        <li>Phone: 083409384</li>
+                        <a><li style={{wordWrap: "break-word"}}>https://vaishnavi.trading.vercel.com</li></a>
 
                     </ul>
                 </div>
                 : null
             }
-            #
+            
         </div>
 
      
