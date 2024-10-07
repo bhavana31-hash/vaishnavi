@@ -126,3 +126,18 @@ body {
     padding-left: 1rem !important;
     padding-top: 1rem;
   }
+
+  .fb{
+    background-color: #3B5998;
+    color: white;
+  }
+
+  .insta{
+    background-image: linear-gradient(to bottom, #405de6 0%, #833ab4 10%, #c13584 25%, #e1306c 50%, #f56040 75%);
+    color: white;
+  }
+
+  .whatsapp{
+    background-color: #25d366;
+    color: white;
+  }

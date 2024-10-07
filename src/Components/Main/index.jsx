@@ -27,7 +27,7 @@ export default function Index() {
   
 
         <div className="col">
-            <a href="https://www.instagram.com/king.energydrink_morena/profilecard/?igsh=Y3Jvb2Q0OXJ0ZDJn" target='_blank' className="fb btnCls">
+            <a href="https://www.instagram.com/king.energydrink_morena/profilecard/?igsh=Y3Jvb2Q0OXJ0ZDJn" target='_blank' className="insta btnCls">
             <FontAwesomeIcon icon={faInstagram} />  Instagram
             </a>
             <a href="https://www.facebook.com/shubham.gour.986?mibextid=ZbWKwL" target='_blank' className="fb btnCls">
@@ -45,7 +45,7 @@ export default function Index() {
                 </div>
                 : null
             }
-            <a href="https://wa.me/9111111519" target='_blank'  className="twitter btnCls">
+            <a href="https://wa.me/9111111519" target='_blank'  className="whatsapp btnCls">
             <FontAwesomeIcon icon={faWhatsapp} />   Whatsapp
             </a>
             <a href="#" className="google btnCls" onClick={HandleClickContact}>Contact</a>
